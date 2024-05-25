@@ -1,0 +1,39 @@
+*{font-family: Arial, Helvetica, sans-serif;}
+
+header{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hamburger{
+    border:none;
+    margin:0;
+    padding:0;
+    height:2rem;
+}
+.hamburger span{
+    cursor: pointer;
+    background-color:black;
+    width:1.2rem;
+    height:0.2rem;
+    display:block;
+    position:relative;
+    margin-bottom: 0.1rem;
+    margin-top: 0.1rem;
+
+}
+.logo{width:9rem;
+    font-size: 1.4rem;}
+
+.login-section a{text-decoration: none;}
+.login-section a:nth-child(1){
+    background-color: black;
+    
+    color:white;
+
+}
+.login-section a:nth-child(2){background-color: white;
+    color:black;
+}
